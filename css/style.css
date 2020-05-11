@@ -1,0 +1,207 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+.relative,
+header,
+main,
+footer {
+  position: relative;
+}
+.transtitle,
+section .virtual-title div {
+  font-size: 120px;
+  line-height: 141px;
+}
+header {
+  background: #111111 0% 0% no-repeat padding-box;
+  padding-top: 10px;
+}
+header nav {
+  font-family: 'Lato', sans-serif;
+}
+header nav.bg-dark {
+  background: #111111 0% 0% no-repeat padding-box !important;
+}
+header nav .navbar-brand img {
+  height: 52px;
+}
+header nav ul li a {
+  letter-spacing: 0px;
+  font-size: 18px;
+  line-height: 22px;
+}
+footer {
+  padding: 90px 0;
+}
+p {
+  line-height: 2em;
+}
+.btn-factory {
+  color: #FFFFFF;
+  background: #F46632 0% 0% no-repeat padding-box;
+}
+section {
+  font-family: 'Raleway', sans-serif;
+}
+section#home {
+  top: 100px;
+  position: relative;
+  z-index: 2;
+}
+section#home h1 {
+  font-weight: bold;
+  font-size: 50px;
+  font-size: 40px;
+  line-height: 59px;
+}
+section#home .product-title {
+  position: absolute;
+  color: #8D8D8D;
+  font-size: 38px;
+  font-size: 34px;
+  line-height: 45px;
+}
+section#home p {
+  font-size: 23px;
+  font-size: 16px;
+  line-height: 55px;
+}
+section#about-us {
+  background: #FAFAFA 0% 0% no-repeat padding-box;
+  padding-top: 300px;
+  padding-bottom: 50px;
+}
+section#about-us .extra-card {
+  top: -195px;
+  height: 240px;
+  width: 324px;
+}
+section#about-us p {
+  font-size: 19px;
+  font-size: 12px;
+  line-height: 50px;
+}
+section#course-experience {
+  background: #FAFAFA 0% 0% no-repeat padding-box;
+}
+section#course-experience .experience-type {
+  width: fit-content;
+  margin: 0 auto;
+}
+section#sessions #sessions-container #sessions-wrapper {
+  padding-left: 15px;
+  margin: 0 15px;
+}
+section#sessions #sessions-container #sessions-wrapper #sessions-item {
+  border-left: 2px solid #ccc;
+}
+section#sessions #sessions-container #sessions-wrapper #sessions-item #section-title-container {
+  position: relative;
+  background: #F8F8F8 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+  padding: 0 15px;
+}
+section#sessions #sessions-container #sessions-wrapper #sessions-item #section-title-container::before {
+  content: "";
+  border-left: 4px solid #000;
+  position: absolute;
+  left: -18px;
+  top: 0;
+  bottom: 0;
+}
+section#sessions #sessions-container #sessions-wrapper #sessions-item #section-title-container #section-title-wrapper h5 {
+  font-weight: bold;
+  font-size: 26px;
+  font-size: 14px;
+  line-height: 30px;
+  padding: 0;
+  margin: 0;
+}
+section#sessions #sessions-container #sessions-wrapper #sessions-item #section-title-container #section-title-wrapper h6 {
+  font-weight: normal;
+  font-size: 18px;
+  font-size: 14px;
+  line-height: 30px;
+  padding: 0;
+  margin: 0;
+}
+section#sessions #sessions-container #sessions-wrapper #sessions-item #section-content-container {
+  padding-left: 20px;
+  padding: 15px;
+}
+section#masters .profile-wrapper {
+  margin-top: 30px;
+}
+section#masters h5 {
+  font-size: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 35px;
+  margin-top: 20px;
+}
+section#masters label {
+  font-size: 18px;
+  font-size: 13px;
+  line-height: 30px;
+}
+section#headings {
+  background: #111111 0% 0% no-repeat padding-box;
+}
+section#faq {
+  background: #FAFAFA 0% 0% no-repeat padding-box;
+}
+section#schedule {
+  background: #FAFAFA 0% 0% no-repeat padding-box;
+}
+section#schedule hr {
+  border: 2px dashed #000;
+}
+section#schedule hr::before,
+section#schedule hr::after {
+  content: " ";
+  border-radius: 6px;
+  border: 1px solid #000;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  left: 3px;
+  top: 13px;
+  opacity: 0.2;
+}
+section#schedule hr::after {
+  left: auto;
+  right: 3px;
+  top: 13px;
+  background: #000;
+}
+section#schedule .card .card-body {
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 53px;
+}
+section .card {
+  border-radius: 30px;
+  box-shadow: 50px 50px 99px #2222220F;
+}
+section .card .card-body {
+  padding: 80px;
+}
+section .virtual-title {
+  text-align: center;
+}
+section .virtual-title div {
+  opacity: 0.05;
+}
+section .virtual-title span {
+  font-size: 32px;
+  line-height: 37px;
+  position: absolute;
+  line-height: 155px;
+  top: 0;
+  left: 0;
+  right: 0;
+}
